@@ -13,7 +13,7 @@ import java.util.*;
 public class DistributionCalculator {
 
     public static void main(String[] args) throws FileNotFoundException {
-
+        //a test file is in HW-20150403/src/ (one level up)
         File textFile = new File("/Users/July/Desktop/accesscode/HW-20150403/src/TestDistributionCalculator.txt");
 
         ArrayList<String> result = calculate(textFile);
